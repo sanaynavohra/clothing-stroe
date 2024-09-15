@@ -1,0 +1,57 @@
+/* Thank You Section */
+.thank-you-section {
+    text-align: center;
+    padding: 60px;
+    background-color: white;
+    margin-top: 40px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thank-you-section h1 {
+    font-size: 32px;
+    color: #232f3e;
+    margin-bottom: 20px;
+}
+
+.thank-you-section p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.thank-you-section a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #d4af37;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.thank-you-section a:hover {
+    background-color: #b8902f;
+}
+
+/* Responsive styling for smaller devices */
+@media (max-width: 768px) {
+    .thank-you-section {
+        padding: 40px 20px;
+    }
+
+    .thank-you-section h1 {
+        font-size: 28px;
+    }
+
+    .thank-you-section p {
+        font-size: 16px;
+    }
+
+    .thank-you-section a {
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Sanayna Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+    <script src="scripts.js" defer></script>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="head" class="head">
+        <a class="logo" href="#"></a>
+        <!-- <a href="#" ><img class="logo" src="logo.png" alt=""></a> -->
+
+        <div>
+            <ul id="navbar" class="navbar">
+                <li> <a class="active" href="Index.html">Home</a></li>
+                <li> <a href="Shop.html">Shop</a></li>
+                <li> <a href="about-us.html">About us</a></li>
+                <li> <a href="Blog.html">Blog</a></li>
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i><span id="cart-count">0</span></a>
+            </ul>
+        </div>
+       
+        
+    </header>
+
+    <!-- Shop Section -->
+    <main>
+        <section class="shop-section">
+            <div class="container">
+                <h1>Shop Our Products</h1>
+
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-item">
+                        <img src="product1.jpg" alt="Product 1">
+                        <h3>Product 1</h3>
+                        <p class="price">$49.99</p>
+                        <button class="add-to-cart" data-name="Product 1" data-price="49.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="product-item">
+                        <img src="product2.jpg" alt="Product 2">
+                        <h3>Product 2</h3>
+                        <p class="price">$29.99</p>
+                        <button class="add-to-cart" data-name="Product 2" data-price="29.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-item">
+                        <img src="product3.jpg" alt="Product 3">
+                        <h3>Product 3</h3>
+                        <p class="price">$99.99</p>
+                        <button class="add-to-cart" data-name="Product 3" data-price="99.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 4 -->
+                    <div class="product-item">
+                        <img src="product4.jpg" alt="Product 4">
+                        <h3>Product 4</h3>
+                        <p class="price">$79.99</p>
+                        <button class="add-to-cart" data-name="Product 4" data-price="79.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 5 -->
+                    <div class="product-item">
+                        <img src="product5.jpg" alt="Product 5">
+                        <h3>Product 5</h3>
+                        <p class="price">$59.99</p>
+                        <button class="add-to-cart" data-name="Product 5" data-price="59.99">Add to Cart</button>
+                    </div>
+
+                    <!-- Product 6 -->
+                    <div class="product-item">
+                        <img src="product6.jpg" alt="Product 6">
+                        <h3>Product 6</h3>
+                        <p class="price">$89.99</p>
+                        <button class="add-to-cart" data-name="Product 6" data-price="89.99">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+ <!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>About Us</h3>
+            <p>We are committed to delivering the best products at the most competitive prices.</p>
+            <p>&copy; 2024 Sanayna Store</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Customer Support</h3>
+            <ul>
+                <li><a href="#">Shipping & Delivery</a></li>
+                <li><a href="#">Returns & Refunds</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="youtube-icon.png" alt="YouTube"></a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Subscribe to our Newsletter</h3>
+            <form id="newsletter-form">
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</footer>
+<script src="scripts.js"></script>
+
+</body>
+</html>
